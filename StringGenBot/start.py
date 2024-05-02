@@ -22,15 +22,15 @@ async def start(bot: Client, msg: Message):
 
 - يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس لتشغيل تلـيثون والبايروجرام لتشغيل سـورس اغــاني تم انشـاء هـذا البـوت
 
-بواسطـة : [⦿ ᴄᴏᴜᴅʀᴀ ⦿](tg://user?id=5474971459) """,
+بواسطـة : [✧ مطور البوت ✧](tg://user?id=5474971459) """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="ابدء استخراج جلسه", callback_data="generate")
+                    InlineKeyboardButton(text="✧ ابدء استخراج جلسه ✧", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("⦿ sᴏᴜʀᴄᴇ ⦿", url="https://t.me/WU_SD"),
-                    InlineKeyboardButton("⦿ ᴄᴏᴜᴅʀᴀ ⦿", user_id=5474971459)
+                    InlineKeyboardButton("✧ السـورس ✧", url="https://t.me/WU_SD"),
+                    InlineKeyboardButton("✧ مطور البوت ✧", user_id=5474971459)
                 ]
             ]
         ),
